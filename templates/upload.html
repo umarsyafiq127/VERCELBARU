@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>Upload Image</h2>
+    <form action="/remove-bg" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Remove Background</button>
+    </form>
+
+    <form action="/ocr" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Extract Text (OCR)</button>
+    </form>
+</body>
+</html>
