@@ -5,7 +5,7 @@ from tools.remove import remove_background  # Import fungsi remove BG
 
 app = Flask(__name__)
 
-OCR_API_URL = "https://your-vercel-ocr.vercel.app/ocr"  # Ganti dengan URL API OCR di Vercel
+OCR_API_URL = "https://freetools-pazaftr46-umar-syafiqs-projects.vercel.app"  # Ganti dengan URL API OCR di Vercel
 
 @app.route("/")
 def home():
