@@ -4,3 +4,4 @@ onnxruntime
 Flask==2.0.3
 requests==2.26.0
 gunicorn==20.1.0
+Werkzeug==2.1.2  # or another version compatible with Flask 2.x
