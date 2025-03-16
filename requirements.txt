@@ -1,5 +1,6 @@
-Flask
 rembg
-requests
 Pillow
 onnxruntime 
+Flask==2.0.3
+requests==2.26.0
+gunicorn==20.1.0
